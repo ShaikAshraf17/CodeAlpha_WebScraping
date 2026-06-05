@@ -1,13 +1,58 @@
 # CodeAlpha Web Scraping Project
 
-This workspace contains a simple web scraping project structure for collecting job listings and saving results.
+## Overview
+This project was developed as part of the CodeAlpha Data Analytics Internship.
 
-## Structure
-- data/ - raw and processed data files
-- notebooks/ - exploratory analysis notebooks
-- src/ - source code modules
-- output/ - generated outputs
+The project uses Python and BeautifulSoup to scrape job listing data from a website and stores the extracted information in a CSV file for further analysis.
 
-## Setup
-1. Install dependencies: pip install -r requirements.txt
-2. Run the scraper: python job_scraper.py
+## Features
+- Extracts job titles
+- Extracts company names
+- Extracts locations
+- Stores data in CSV format
+- Easy-to-use Python implementation
+
+## Technologies Used
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+
+## Project Structure
+
+```text
+CodeAlpha_WebScraping/
+│
+├── data/
+│   └── jobs.csv
+├── notebooks/
+├── output/
+├── src/
+├── job_scraper.py
+├── README.md
+└── requirements.txt
+```
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Project
+
+```bash
+python job_scraper.py
+```
+
+## Output
+
+The scraper generates a CSV file containing:
+- Job Title
+- Company Name
+- Location
+
+## Author
+
+Shaik Ashraf
+CodeAlpha Data Analytics Intern
